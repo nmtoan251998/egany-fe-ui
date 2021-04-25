@@ -1,0 +1,46 @@
+.heading {
+    font-family: SVN-Product Sans;
+    font-style: normal;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.heading-2 {
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 72px;
+}
+
+.heading-3 {
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 60px;
+}
+
+.text {
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: var(--color-dark);
+}
+
+.nav-item-text {
+    font-weight: 600;
+}
+
+.new-product-heading {
+    font-weight: 600;
+}
+
+.icon {
+    height: 19px;
+    width: 24px;
+}
+
+.new-product-explore {
+    font-weight: 600;
+}
