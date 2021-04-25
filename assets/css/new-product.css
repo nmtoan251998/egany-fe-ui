@@ -1,3 +1,44 @@
+@media only screen and (max-width: 360px) {
+    .new-product {
+        flex-direction: column-reverse !important;
+        margin: 2em 0 0 0 !important;
+        width: 100% !important;
+    }
+
+    .new-product-right {
+        max-width: 312px !important;
+        min-width: 342px !important;
+        min-height: 342px !important;
+        max-height: 312px !important;
+        margin-left: 0 !important;
+        margin-top: 0 !important;
+        margin-bottom: 32px;
+    }
+
+    .new-product-elipse, .new-product-intersect {
+        height: 295px !important;
+        width: 295px !important;
+    }
+    .new-product-intersect {
+        right: -10px !important;
+        bottom: 20px !important;
+    }
+
+    .new-product-left {
+        padding: 0 5%;
+    }
+
+    .new-product-desc {
+        min-width: 0 !important;
+        padding: 16px !important;
+    }
+
+    .new-product-explore {
+        padding: 8px 24px !important;
+        width: 100%;
+    }
+}
+
 .new-product {
     margin: 30em 10% 0 10%;
     display: flex;
@@ -37,18 +78,19 @@
     width: 220px;
 }
 
+.new-product-elipse, .new-product-intersect {
+    height: 400px;
+    width: 400px;
+}
+
 .new-product-elipse {
     z-index: 1;
     opacity: 80%;
-    height: 400px;
-    width: 400px;
     bottom: 0;
 }
 
 .new-product-intersect {
     z-index: 0;
-    height: 400px;
-    width: 400px;
     bottom: 25px;
     right: 25px;
 }
