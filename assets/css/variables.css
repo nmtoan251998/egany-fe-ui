@@ -5,6 +5,8 @@
     --color-blue: #85CEF2;
     --color-yellow: #F4EA88;
     --color-dark: #000000;
+    --color-dark-01: rgba(244, 244, 244, 0);
     --color-white: #FFFFFF;
+    --color-white-01: #F4F4F4;
     --color-gray: #E5E5E5;
 }
