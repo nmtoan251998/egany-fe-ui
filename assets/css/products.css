@@ -1,0 +1,21 @@
+.products {
+    margin: 2.5em 0 0 0;
+    overflow: hidden;
+}
+
+.products-slider {
+    display: flex;
+    flex-direction: row;
+    width: 150%;
+}
+
+.products-card {
+    background-color: var(--color-white);
+    border-radius: 16px;
+    margin-right: 16px;
+    padding: 8px;
+    width: 12em;
+    height: 12em;
+}
+
+.products-card-img { height: 100%; }
