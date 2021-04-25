@@ -17,6 +17,12 @@
     line-height: 60px;
 }
 
+.heading-4 {
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 50px;
+}
+
 .text {
     font-family: Roboto;
     font-size: 16px;
@@ -43,4 +49,18 @@
 
 .new-product-explore {
     font-weight: 600;
+}
+
+.product-slider-title {
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: bold;
+    line-height: 24px;
+    color: var(--color-dark);   
+}
+
+.product-slider-price {
+    color: var(--color-blue);
+    font-weight: 900;
 }
