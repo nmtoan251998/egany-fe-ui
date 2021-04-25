@@ -1,3 +1,36 @@
+@media only screen and (max-width: 360px) {
+    .rating {
+        margin: 7.5em 5% 0 5% !important;
+        flex-direction: column !important;
+    }
+
+    .rating-img {
+        width: 300px !important;
+        height: 360px !important;
+        margin-left: -20% !important;
+    }
+
+    .rating-left {
+        margin-bottom: 3em;
+    }
+
+    .rating-feedback-item {
+        height: 100px !important;
+        width: 300px !important;
+    }
+
+    .rating-feedback {
+        flex-direction: column !important;
+        align-items: center !important;
+        justify-content: center !important;
+    }
+
+    .rating-feedback-slider {
+        transform: rotate(90deg) !important;
+        margin-left: 0 !important;
+    }
+}
+
 .rating {
     margin: 7.5em 10% 0 10%;
     display: flex;
