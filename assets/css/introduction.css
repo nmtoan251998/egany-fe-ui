@@ -2,32 +2,20 @@
     margin: 5em 5% 0 5%;
     display: grid;
     grid-template-columns: 45% 20% 35%;
-    height: 120vh;
     max-width: 100%;
     position: relative;
 }
 
-.introduction-background {
-    position: absolute;
-    left: 0;
-    transform: translate(-10px, 0);
-    height: 100%;
-    width: 100%;
-    background-image: url(../images/introduction-people.svg), url(../images/introduction-houses.svg);
-    background-repeat: no-repeat;
-    background-position: center bottom, center bottom;
-    z-index: 1;
-
-    display: flex;
-    justify-content: flex-start;
-    align-items: flex-end;
+.introduction-text {
+    margin-bottom: 10px; 
 }
 
-/* .introduction-line {
-    height: 100%;
-    width: 150%;
-    z-index: 0;
-    background-image: url(../images/introduction-line.svg);
+.introduction-background {
+    position: absolute;
+    left: -140px;
+    height: 800px;
+    width: 100vw;
+    background-image: url(../images/introduction-bg-full.png);
     background-repeat: no-repeat;
     background-position: center;
-} */
+}

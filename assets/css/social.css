@@ -12,5 +12,12 @@
 
 .social-link {
     margin-top: 1em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.social-link-text {
     color: var(--color-blue-01);
+    margin-left: 12px;
 }
