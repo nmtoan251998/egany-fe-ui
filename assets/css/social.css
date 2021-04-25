@@ -1,3 +1,13 @@
+@media only screen and (max-width: 360px) {
+    .social {
+        margin: 1.5em 5% 0 5% !important;
+    }
+
+    .social-text-desc {
+        width: 90% !important;
+    }
+}
+
 .social {
     margin: 7.5em 10% 0 10%;
     display: flex;

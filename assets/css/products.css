@@ -1,3 +1,16 @@
+@media only screen and (max-width: 360px) {
+    .products-card {
+        width: 150px !important;
+        height: 150px !important;
+        margin-right: 6px !important;
+    }
+
+    .products-card-img {
+        height: 150px !important;
+        width: 150px !important;
+    }
+}
+
 .products {
     margin: 2.5em 0 0 0;
     overflow: hidden;
