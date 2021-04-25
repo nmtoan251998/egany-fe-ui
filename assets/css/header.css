@@ -8,6 +8,9 @@
     .header-nav-left {
         display: none !important;
     }
+    .header-nav-responsive {
+        display: block !important;
+    }
 
     .nav-item-logo {
         width: 3em !important;
@@ -17,7 +20,7 @@
         margin-right: 20px !important;
     }
     .responsive-menu {
-        display: block;
+        display: block !important;
         position: relative;
         text-align: center;
         border-radius: 50%;
@@ -42,6 +45,13 @@
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.responsive-menu {
+    display: none;
+}
+.header-nav-responsive {
+    display: none;
 }
 
 .nav-list {

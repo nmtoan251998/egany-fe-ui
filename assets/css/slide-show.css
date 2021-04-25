@@ -1,6 +1,6 @@
 @media only screen and (max-width: 360px) {
     .slide-show {
-        overflow: hidden;
+        overflow: scroll;
     }
     .slide-show-desc {
         width: unset !important;

@@ -1,6 +1,8 @@
 @media only screen and (max-width: 360px) {
     .introduction {
+        margin: 5em 0 0 0 !important;
         grid-template-columns: 100% !important;
+        overflow: hidden !important;
     }
 
     .introduction-background {
@@ -12,11 +14,15 @@
         display: unset !important;
         height: 600px;
         width: 600px;
-        margin-left: -60vw;
+        margin-left: -50vw;
         background-image: url(../images/introduction-bg-full.png);
         background-repeat: no-repeat;
         background-position: center;
         background-size: cover;
+    }
+
+    .introduction-left, .introduction-right {
+        margin: 0 5% 0 5% !important;
     }
 
     .heading-2 {
@@ -37,6 +43,9 @@
     margin-bottom: 10px; 
 }
 
+.introduction-background-responsive {
+    display: none;
+}
 .introduction-background {
     position: absolute;
     left: -140px;
