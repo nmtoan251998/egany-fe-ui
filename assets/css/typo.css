@@ -64,3 +64,10 @@
     color: var(--color-blue);
     font-weight: 900;
 }
+
+.footer-item-left-text {
+    font-size: 14px;
+}
+.footer-item-right-text {
+    font-size: 12px;
+}
