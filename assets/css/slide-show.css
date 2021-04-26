@@ -49,6 +49,27 @@
     justify-content: left;
     flex-direction: column;
     box-shadow: 0 3px 8px rgba(0, 0, 36, 0.15);
+    border: 6px solid transparent;
+    transition: 250ms;
+}
+
+.product-card:hover {
+    height: 22.2em;
+    border: 6px solid var(--color-secondary);
+    transform: translate(-5px, 5px);
+}
+.product-card:hover .slideshow-btn-buy {
+    display: block;
+}
+
+.slideshow-btn-buy {
+    display: none;
+    transition: 300ms;
+    margin-top: 16px;
+    background-color: var(--color-secondary);
+    padding: 8px 24px;
+    border-radius: 12px;
+    cursor: pointer;
 }
 
 .product-thumb-container {
