@@ -1,9 +1,10 @@
 @media only screen and (min-width: 360px) and (max-width: 900px) {
     .slide-show-slider {
-        overflow-y: scroll;
+        overflow-x: scroll !important;
     }
+
     .slide-show-desc {
-        width: unset !important;
+        width: 100% !important;
     }
 
     .product-card {
@@ -60,10 +61,12 @@
 }
 .product-card:hover .slideshow-btn-buy {
     display: block;
+    visibility: visible;
 }
 
 .slideshow-btn-buy {
     display: none;
+    visibility: hidden;
     transition: 300ms;
     margin-top: 16px;
     background-color: var(--color-secondary);
@@ -92,8 +95,10 @@
     width: 600px;
 }
 
-.slide-show-slider {
+
+.slide-show-slider {    
     width: 100%;
+    overflow-x: hidden;
 }
 
 .product-colors-list {
