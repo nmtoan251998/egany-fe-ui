@@ -71,6 +71,11 @@
     width: 600px;
 }
 
+.slide-show-slider {
+    width: 100%;
+    overflow-x: scroll;
+}
+
 .product-colors-list {
     display: flex;
     flex-direction: row;

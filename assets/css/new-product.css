@@ -1,4 +1,5 @@
-@media only screen and (min-width: 360px) and (max-width: 900px) {
+/* @media only screen and (min-width: 360px) and (max-width: 900px) { */
+@media only screen and (min-width: 360px) {
     .new-product {
         flex-direction: column-reverse !important;
         margin: 2em 0 0 0 !important;
@@ -58,10 +59,12 @@
     justify-content: center;
     overflow: hidden;
     position: relative;
-    max-width: 650px;
-    min-width: 500px;
-    min-height: 500px;
-    max-height: 650px;
+
+    min-width: 400px;
+    max-width: 550p;
+
+    min-height: 400px;
+    max-height: 550p;
     margin-left: 50px;
     margin-top: 50px;
     border-radius: 50%;
