@@ -1,4 +1,4 @@
-@media only screen and (max-width: 360px) {
+@media only screen and (min-width: 360px) and (max-width: 900px) {
     .header {
         background-color: var(--color-white);
         margin: 0 0 1.5em 0 !important;
