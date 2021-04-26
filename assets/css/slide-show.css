@@ -1,6 +1,6 @@
 @media only screen and (min-width: 360px) and (max-width: 900px) {
-    .slide-show {
-        overflow: scroll;
+    .slide-show-slider {
+        overflow-y: scroll;
     }
     .slide-show-desc {
         width: unset !important;
@@ -73,7 +73,6 @@
 
 .slide-show-slider {
     width: 100%;
-    overflow-x: scroll;
 }
 
 .product-colors-list {
