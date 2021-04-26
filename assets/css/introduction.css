@@ -12,9 +12,9 @@
 
     .introduction-background-responsive {
         display: unset !important;
-        height: 600px;
-        width: 600px;
-        margin-left: -50vw;
+        height: 50vh;
+        width: 120vw;
+        margin-left: -5em;
         background-image: url(../images/introduction-bg-full.png);
         background-repeat: no-repeat;
         background-position: center;

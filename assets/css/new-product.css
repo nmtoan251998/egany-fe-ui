@@ -125,10 +125,10 @@
 
 .new-product-tape {
     position: absolute;
-    left: -50px;
-    top: 20px;
-    height: 27px;
-    width: 126px;
+    left: -40px;
+    top: 15px;
+    height: 1.4em;
+    width: 7em;
     background-color: #FCD4D4;
     opacity: .7;
     transform: rotate(-44deg);
