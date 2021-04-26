@@ -21,7 +21,7 @@ footer, header, hgroup, menu, nav, section {
 body {
 	line-height: 1;
 	background-color: var(--color-gray);
-	/* overflow-x: hidden; */
+	overflow-x: hidden;
 }
 
 a {
